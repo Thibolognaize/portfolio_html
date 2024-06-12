@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Thibault FEAT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-sky-950 text-stone-300 ">
+
+    <!-- Header Section -->
+    <header class="bg-slate-950 shadow-xl shadow-slate-950/50 bg-center bg-gradient-to-tl from-cyan-950 rounded-b-lg border-double" >
+        <div class="container mx-auto p-6 flex justify-between items-center ">
+            <div class="flex items-center ">
+                <img src="img/photo/pp.jpg" alt="Photo de Thibault Feat" class="size-32 rounded-full mr-4 object-cover border-4">
+                <div>
+                    <h1 class="text-6xl font-bold">Thibault Feat</h1>
+                    <h2 class="text-6xl text-lg ">Développeur WEB</h2>
+                </div>
+            </div>
+            <!-- Mes boutons -->
+            <nav class="flex space-x-8">
+                <button onclick="window.location.href='./index.html'" class="text-neutral-950 bg-slate-500 border-2 rounded-full p-3 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">Accueil</button>
+                <button onclick="window.location.href='/index.html#competences'" class="text-neutral-950 bg-slate-500  border-2 rounded-full p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">Compétences</button>
+                <button onclick="window.location.href='./projet.html'" class="text-neutral-950 bg-slate-500  border-2 rounded-full p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">Projets</button>
+                <button onclick="window.location.href='./veille.html'" class="text-neutral-950 bg-slate-500 border-2 rounded-full p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">Ma Veille</button>
+                <button onclick="window.location.href='/index.html#contact'" class="text-neutral-950 bg-slate-500  border-2 rounded-full p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">Contact</button>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Présentation Section -->
+    <section id="home" class="container mx-auto p-6 pt-10 shadow-inner">
+        <div class="bg-white shadow-md rounded-lg p-6 ">
+            <h2 class="text-3xl font-bold mb-4 text-neutral-950 text-center">Bienvenue sur mon portfolio !</h2>
+            <p class="text-gray-700 text-center p-3 text-lg">Je suis Thibault FEAT, étudiant en première année de BTS SIO <em>(Services Informatiques aux Organisations)</em>, avec une spécialisation en <strong>SLAM</strong> <em>(Solutions Logicielles et Applications Métier)</em> à l'Esicad de Montpellier.
+                <!-- <br> -->
+                Depuis le début de mes études en <strong>BTS SIO</strong>, j'ai développé une passion pour l'informatique. C'est à travers cette passion que j'ai exploré le développement web et que j'ai décidé d'en faire ma carrière future.
+                <br><br>
+                Pour obtenir plus d'informations, je vous invite à télécharger mon CV ci-dessous.
+                <br><br>
+                ⬇️⬇️⬇️
+            </p>
+        </div>
+        <div class="flex justify-center">
+            <a href="/dl/CV_FEAT_2024.pdf" target="_blank">
+                
+                <button class="flex justify-center border-2 rounded-full p-2 mt-9  bg-red-500 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-300"><strong>Téléchargez mon CV</strong></button>
+            </a>
+        </div>
+    </section>
+
+    <!--Compétences Section-->
+		<section id="competences" class="container mx-auto p-6">
+			<h2 class="text-3xl font-bold mb-4">Mes compétences techniques</h2>
+
+			<ul class="grid grid-cols-2 md:grid-cols-3 gap-6">
+				<a href="https://fr.wikipedia.org/wiki/HTML5">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2 ">
+							<img src="/img/logo/html5logo.png" alt="HTML5 Logo" class="h-8  mr-2">
+							<span>HTML5</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 85%">85%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/csslogo.png" alt="CSS3 Logo" class="h-8  mr-2">
+							<span>CSS3</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 75%">75%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/jslogo.png" alt="JavaScript Logo" class="h-8 w-8 mr-2">
+							<span>JavaScript</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 50%">50%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://tailwindcss.com/">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/tailwindcsslogo.png" alt="TailwindCSS Logo" class="h-8 w-8 mr-2">
+							<span>TailwindCSS</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 70%">70%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://www.php.net/">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/phplogo.png" alt="PHP Logo" class="h-8 w-8 mr-2">
+							<span>PHP</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 70%">70%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://www.mysql.com/fr/">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/mysqllogo.png" alt="MySQL/MariaDB Logo" class="h-8 w-8 mr-2">
+							<span>MySQL/MariaDB</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 65%">65%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://www.lemondeinformatique.fr/macos-x-100.html">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/maclogo.png" alt="MacOS Logo" class="h-8 w-8 mr-2">
+							<span>MacOS</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 70%">75%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://www.microsoft.com/fr-fr/windows/windows-11?r=1">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/winlogo.png" alt="Windows Logo" class="h-8 w-8 mr-2">
+							<span>Windows</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 90%">90%</div>
+						</div>
+					</li>
+				</a>
+				<a href="https://www.oracle.com/fr/linux/what-is-linux/">
+					<li class="flex flex-col bg-white shadow-md rounded-lg p-4 text-neutral-950 transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
+						<div class="flex items-center mb-2">
+							<img src="/img/logo/linuxlogo.png" alt="Linux Logo" class="h-8 w-8 mr-2">
+							<span>Linux</span>
+						</div>
+						<div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+							<div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 85%">85%</div>
+						</div>
+					</li>
+				</a>
+			</ul>
+		</section>
+
+
+    <section id="Formation" class="container mx-auto p-6 basis-6/12">
+        <h2 class="text-3xl font-bold mb-4">Mon école / Ma formation</h2>
+        
+        <div class="flex">
+            <div class="bg-white shadow-md rounded-lg p-6 mr-4 flex-grow flex-shrink">
+                
+                <p class="text-gray-700 p-3 text-lg text-justify mb-px	">
+                    Crée en 1983, <strong>l’ESICAD Montpellier</strong> est un acteur reconnu dans l’enseignement supérieur privé du Sud de la France, par la qualité de ses enseignements et l’encadrement apporté à ses étudiants. Avec plus de 700 alternants conclus chaque année, l'école bénéficie d'une forte notoriété auprès des entreprises de la région. Spécialisée dans les formations post-bac tertiaires, de BAC+2 à BAC+5, en formation initiale et en alternance, l’ESICAD Montpellier forme aux métiers du commerce, du management, de l’administration, de la gestion / finance, de <strong>l’informatique</strong>, du tourisme et de l’hôtellerie restauration.
+                </p>
+                <div class="container columns-3 mx-auto ">
+                    <img src="/img/logo/ESICAD-logo.png" alt="Logo-Esicad" class="size-9/12 ">
+                    <img src="/img/photo/esicad-entree.png" alt="Photo de l'Esicad#1" class="size-fit">
+                    <img src="/img/photo/esicad-inte.png" alt="Photo de l'Esicad#2" class="size-fit">
+                </div>
+            </div>
+            
+            <div class="bg-white shadow-md rounded-lg p-6 flex-grow flex-shrink">
+                <p class="text-gray-700 text-justify p-3 text-lg">
+                    Le <strong>BTS Services Informatiques aux Organisations (SIO)</strong> est une formation de deux ans très prisée en France pour ceux qui aspirent à une carrière dans le domaine de l'informatique. Ce diplôme polyvalent offre deux options distinctes :<br>
+                    L'option <strong>"Solutions d'Infrastructure, Systèmes et Réseaux" (SISR)</strong> se concentre sur la conception, la mise en place et la maintenance des infrastructures informatiques.<br>
+                    L'option <strong>"Solutions Logicielles et Applications Métiers" (SLAM)</strong> se concentre sur le développement d'applications et de solutions logicielles répondant aux besoins spécifiques des entreprises.
+                </p>
+            </div>
+        </div>
+        
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto p-6 pb-10">
+        <h2 class="text-3xl font-bold mb-4">Contactez moi | 🚧EN CONSTRUCTION🚧</h2>
+        <form action="submit-form.php" method="post" class="bg-white shadow-md rounded-lg p-6">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 mb-2">Nom:</label>
+                <input type="text" id="name" name="name" required class="w-full px-3 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 mb-2">Email:</label>
+                <input type="email" id="email" name="email" required class="w-full px-3 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 mb-2">Message:</label>
+                <textarea id="message" name="message" rows="4" required class="w-full px-3 py-2 border rounded-lg"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class=" w-full bg-slate-950 bg-gradient-to-r from-cyan-950 shadow-xl shadow-slate-950/50 p-6 text-center">
+        <p>&copy; 2024 Thibault Feat. Tous droits réservés.</p>
+    </footer> 
+
+</body>
+</html>
+
