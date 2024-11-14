@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../assets/img/logo/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./assets/img/logo/favicon-32x32.png" sizes="32x32" />
     <title>Portfolio | Thibault FEAT</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/input.css">
 </head>
 
 <body class="bg-sky-950 text-stone-300">
     <div class="btn">
-        <img src="../../assets/img/icon/186407_arrow_up_icon.svg" alt="" class="icone">
+        <img src="./assets/img/icon/186407_arrow_up_icon.svg" alt="" class="icone">
     </div>
     <header class="bg-slate-950 shadow-xl shadow-slate-950/50 bg-center bg-gradient-to-tl from-cyan-950 rounded-b-lg">
         <div
             class="container mx-auto p-4 md:p-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <!-- Section photo et nom -->
             <div class="flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
-                <img src="../../assets/img/photo/pp.jpg" alt="Photo de Thibault Feat"
+                <img src="./assets/img/photo/pp.jpg" alt="Photo de Thibault Feat"
                     class="size-32 md:size-44 rounded-full md:mr-4 sm:mr-0 object-cover border-4">
                 <div class="mt-3 md:mt-0">
                     <h1 class="text-4xl md:text-6xl font-bold">Thibault Feat</h1>
@@ -29,11 +30,11 @@
 
             <!-- Navigation -->
             <nav class="flex flex-wrap justify-center gap-3 md:gap-4 lg:gap-8">
-                <a href='../index.html'
+                <a href='./index.html'
                     class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
                     Accueil
                 </a>
-                <a href='../index.html#competence' onclick="scrollToCompetences(event)"
+                <a href='./index.html#competence' onclick="scrollToCompetences(event)"
                     class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
                     Compétences
                 </a>
@@ -41,11 +42,11 @@
                     class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
                     Projets
                 </a>
-                <a href="../pages/veille.html"
+                <a href="./veille.html"
                     class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
                     Ma Veille
                 </a>
-                <a href="../index.html#contact" onclick="scrollToContact(event)"
+                <a href="./index.html#contact" onclick="scrollToContact(event)"
                     class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
                     Contact
                 </a>
@@ -67,8 +68,8 @@
                     familiariser avec cet outil.
                 </p>
                 <div class="object-scale-down h-1/2">
-                    <a href="/img/photo/image1.png" target="_blank">
-                        <img src="/img/photo/image1.png" alt="Ouvrir l'image"
+                    <a href="./assets/img/photo/image1.png" target="_blank">
+                        <img src="./assets/img/photo/image1.png" alt="Ouvrir l'image"
                             class="w-full cursor-pointer transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
                     </a>
                     <a href="https://github.com/Thibolognaize/my_portfolio" target="_blank"
@@ -81,8 +82,8 @@
                 <p class="text-neutral-950 mb-2">Site web utilisant un script Js pour récupérer les informations de
                     l'api Tyradex. <br>Ce site répertorie les pokemons de première génération.</p>
                 <div class="object-scale-down h-1/2">
-                    <a href="/img/photo/image2.png" target="_blank">
-                        <img src="/img/photo/image2.png" alt="Ouvrir l'image"
+                    <a href="./assets/img/photo/image2.png" target="_blank">
+                        <img src="./assets/img/photo/image2.png" alt="Ouvrir l'image"
                             class="w-full cursor-pointer transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200 bottom-0">
                     </a>
                     <a href="https://github.com/Thibolognaize/Website_pokedex" target="_blank"
@@ -95,8 +96,8 @@
                 <p class="text-neutral-950 mb-2">C'est une application Web que j'ai designé à l'aide de CSS.<br>Pour
                     l'affichage de donnée j'ai utilisé un script m'affichant les donnée de l'API weather map</p>
                 <div class="object-scale-down h-1/2">
-                    <a href="/img/photo/image3.png" target="_blank">
-                        <img src="/img/photo/image3.png" alt="Ouvrir l'image" class="w-full object-cover">
+                    <a href="./assets/img/photo/image3.png" target="_blank">
+                        <img src="./assets/img/photo/image3.png" alt="Ouvrir l'image" class="w-full object-cover">
                     </a>
                     <a href="https://github.com/Thibolognaize/Weather-app" target="_blank"
                         class="text-blue-500 hover:underline">↳ Voir le projet sur GitHub</a>
@@ -109,8 +110,9 @@
                     tout en masquant les autres en utilisant du javascripts. Ce projet à pour vocation d'être réutilisé
                     dans des projets futurs afin de rendre l'interface plus moderne.</p>
                 <div class="object-scale-down h-1/2">
-                    <a href="/img/photo/image4.png" target="_blank" alt="Voir l'image">
-                        <img src="/img/photo/image4.png" alt="Ouvrir l'image" class="w-full h-full object-cover">
+                    <a href="./assets/img/photo/image4.png" target="_blank" alt="Voir l'image">
+                        <img src="./assets/img/photo/image4.png" alt="Ouvrir l'image"
+                            class="w-full h-full object-cover">
                     </a>
                     <a href="https://github.com/Thibolognaize/Projet_tabs" target="_blank"
                         class="text-blue-500 hover:underline">↳ Voir le projet sur GitHub</a>
