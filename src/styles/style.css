@@ -14,3 +14,7 @@
 .icone {
     width: 50px;
 }
+
+#invisible-h2 {
+    visibility: hidden;
+}

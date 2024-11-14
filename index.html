@@ -32,11 +32,11 @@
 
 			<!-- Navigation -->
 			<nav class="flex flex-wrap justify-center gap-3 md:gap-4 lg:gap-8">
-				<a href='./index.html'
-					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-3 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
+				<a href="./index.html"
+					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					Accueil
 				</a>
-				<a href='#competences' onclick="scrollToCompetences(event)"
+				<a href="./index.html#competence"
 					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					Compétences
 				</a>
@@ -48,16 +48,16 @@
 					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					Ma Veille
 				</a>
-				<a href="#contact" onclick="scrollToContact(event)"
-					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
-					Contact
+				<a href="./index.html#contact" onclick="scrollToContact(event)"
+					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">Contact
 				</a>
 			</nav>
 		</div>
 	</header>
 
 	<!-- Présentation Section -->
-	<section id="home" class="container mx-auto p-6 pt-10 shadow-inner">
+	<section id="home" class="container mx-auto p-6 ">
+		<h2 id="invisible-h2" class="text-3xl font-bold mb-4 hidden">Présentation</h2>
 		<div class="bg-white shadow-md rounded-lg py-4">
 			<h2 class="text-3xl font-bold mb-4 text-neutral-950 text-center p-4">Bienvenue sur mon portfolio !</h2>
 			<p class="text-gray-700 text-center text-lg">Je suis Thibault FEAT, étudiant en première année de BTS
@@ -208,10 +208,11 @@
 		</ul>
 	</section>
 
+	<!-- Formation section -->
 	<section id="Formation" class="container mx-auto p-6">
 		<h2 class="text-3xl font-bold mb-4">Mon école / Ma formation</h2>
 
-		<div class="grid grid-cols-1 gap-6"> <!-- Remplace le flex par grid -->
+		<div class="grid grid-cols-1 gap-6">
 			<!-- Premier bloc -->
 			<div class="bg-white shadow-md rounded-lg p-6">
 				<p class="text-gray-700 sm:p-3 text-lg text-justify mb-px">
@@ -318,23 +319,7 @@
 	<footer class=" w-full bg-slate-950 bg-gradient-to-r from-cyan-950 shadow-xl shadow-slate-950/50 p-6 text-center">
 		<p>&copy; 2024 Thibault Feat. Tous droits réservés.</p>
 	</footer>
-	<!-- <script src="/src/scripts/scrollToSection.js"></script> -->
-	<script>
-		function scrollToCompetences(event) {
-			event.preventDefault(); // Empêche le comportement par défaut du lien
-			console.log("ScollToSection called");
-			document.querySelector('#competences').scrollIntoView({
-				behavior: 'smooth'
-			});
-		}
-		function scrollToContact(event) {
-			event.preventDefault();
-			console.log("ScrollToContact called");
-			document.querySelector("#contact").scrollIntoView({
-				behavior: 'smooth'
-			})
-		}
-	</script>
+
 	<script src="./src/scripts/app.js"></script>
 </body>
 

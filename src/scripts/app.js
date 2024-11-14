@@ -9,3 +9,18 @@ btn.addEventListener('click', () => {
     })
 
 })
+
+function scrollToCompetences(event) {
+    event.preventDefault(); // Empêche le comportement par défaut du lien
+    console.log("ScollToSection called");
+    document.querySelector('#competences').scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+function scrollToContact(event) {
+    event.preventDefault();
+    console.log("ScrollToContact called");
+    document.querySelector("#contact").scrollIntoView({
+        behavior: 'smooth'
+    })
+}
