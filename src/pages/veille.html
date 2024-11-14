@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/logo/favicon-32x32.png" sizes="32x32" />
+    <title>Portfolio | Thibault FEAT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+
+<body class="bg-sky-950 text-stone-300">
+
+    <header class="bg-slate-950 shadow-xl shadow-slate-950/50 bg-center bg-gradient-to-tl from-cyan-950 rounded-b-lg">
+        <div
+            class="container mx-auto p-4 md:p-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <!-- Section photo et nom -->
+            <div class="flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
+                <img src="../../assets/img/photo/pp.jpg" alt="Photo de Thibault Feat"
+                    class="size-32 md:size-44 rounded-full md:mr-4 sm:mr-0 object-cover border-4">
+                <div class="mt-3 md:mt-0">
+                    <h1 class="text-4xl md:text-6xl font-bold">Thibault Feat</h1>
+                    <h2 class="text-xl md:text-2xl md:ml-5">Développeur WEB</h2>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex flex-wrap justify-center gap-3 md:gap-4 lg:gap-8">
+                <a href='../index.html'
+                    class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
+                    Accueil
+                </a>
+                <a href='../index.html#competence' onclick="scrollToCompetences(event)"
+                    class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
+                    Compétences
+                </a>
+                <a href="./projet.html"
+                    class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
+                    Projets
+                </a>
+                <a href="../pages/veille.html"
+                    class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
+                    Ma Veille
+                </a>
+                <a href="../index.html#contact" onclick="scrollToContact(event)"
+                    class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="container mx-auto p-6 pt-10 shadow-inner">
+
+        <div class="bg-white shadow-md rounded-lg p-6 ">
+            <h2 class="text-3xl font-bold mb-4 text-neutral-950 text-center">Ma veille informatique</h2>
+
+            <h3 class=" font-bold text-neutral-950 underline">
+                Qu'est ce qu'une veille informatique ?
+            </h3>
+
+            <p class="text-gray-700 p-3 text-lg text-wrap mb-4">
+                La veille informatique est une pratique essentielle dans le domaine du développement informatique.
+                Elle
+                consiste à rester constamment à l'affût des dernières avancées technologiques,
+                des nouvelles tendances et des innovations dans le domaine de l'informatique.
+            </p>
+
+            <h3 class=" font-bold  text-neutral-950 underline">
+                A quoi ça sert ?
+            </h3>
+
+            <p class="text-gray-700 p-3 text-lg text-wrap mb-4">
+                En tant que développeur, je considère que la veille informatique est essentielle pour rester à jour
+                avec
+                les nouveaux langages de programmation, les frameworks, les outils de développement, et les
+                meilleures
+                pratiques en matière de programmation.
+                Cela me permet non seulement d'améliorer mes compétences techniques, mais aussi d'anticiper les
+                évolutions du marché et d'adapter mes projets en conséquence.<br><br>
+                Je crois fermement que la veille informatique est un pilier fondamental pour tout développeur
+                désireux
+                de maintenir ses compétences à jour et de rester compétitif sur le marché du travail.
+                Intégrer cette pratique dans mon quotidien m'a permis de rester à jour sur les dernières actualités
+                du
+                monde numérique.
+            </p>
+
+
+            <h3 class=" font-bold  text-neutral-950 underline mb-6">
+                Mes références
+            </h3>
+
+            <table class="table-auto border-separate text-neutral-950 mx-auto">
+                <thead>
+                    <tr>
+                        <th class="border border-slate-500 ">Source</th>
+                        <th class="border border-slate-500">Nom</th>
+                        <th class="border border-slate-500">Descriptif</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-slate-500">
+                            Youtube
+                            <img src="/img/logo/logoytb.png" class="h-10">
+                        </td class="border border-slate-500">
+                        <td class="border border-slate-500"><a href="https://www.youtube.com/@grafikart/"
+                                class="hover:text-blue-500">Grafikart.fr</a></td>
+                        <td class="border border-slate-500">Axé développement web et graphisme, cette chaine propose
+                            des
+                            formations gratuites accessibles au débutants et initie à l'utilisation des frameworks
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border border-slate-500">
+                            Youtube
+                            <img src="/img/logo/logoytb.png" class="h-10">
+                        </td class="border border-slate-500">
+                        <td class="border border-slate-500"><a href="https://www.youtube.com/@NetworkChuck"
+                                class="hover:text-blue-500">NetworkChuck</a></td>
+                        <td class="border border-slate-500">Cette chaîne partage énormément de contenu informatique.
+                            En
+                            passant par la Cybersécurité, l'utilisation de VM et la découverte de Linux. </td>
+                    </tr>
+                    <tr>
+                        <td class="border border-slate-500 text-center">
+                            Web
+                            <img src="/img/logo/icone-web.jpg" class="h-12">
+                        </td class="border border-slate-500">
+                        <td class="border border-slate-500"><a href="https://www.it-connect.fr/"
+                                class="hover:text-blue-500">IT-Connect.fr</a></td>
+                        <td class="border border-slate-500">Plate-forme de cours sur l’administration systèmes et
+                            réseau
+                            pour les professionnels de l’informatique. Partage de posts à propos de l'actualité
+                            informatique.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-slate-500 text-center">
+                            Web
+                            <img src="/img/logo/icone-web.jpg" class="h-12">
+                        </td class="border border-slate-500">
+                        <td class="border border-slate-500"><a href="https://www.presse-citron.net/"
+                                class="hover:text-blue-500">Presse-Citron</a></td>
+                        <td class="border border-slate-500">Ce site propose toute l'actualité informatique
+                            quotidienne,
+                            en mettant en avant les nouvelles sorties technologiques.</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class=" w-full bg-slate-950 bg-gradient-to-r from-cyan-950 shadow-xl shadow-slate-950/50 p-6 text-center">
+        <p>&copy; 2024 Thibault Feat. Tous droits réservés.</p>
+    </footer>
+
+</body>

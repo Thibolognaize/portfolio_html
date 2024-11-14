@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-list {
+        @apply list-disc list-inside space-y-2 ml-4 mb-4 text-gray-700;
+    }
+
+    .custom-list li {
+        @apply py-1 pl-2 hover:bg-slate-100 rounded-lg transition-colors duration-200;
+    }
+
+    /* Si vous voulez personnaliser les puces */
+    .custom-list li::marker {
+        @apply text-slate-400;
+    }
+}

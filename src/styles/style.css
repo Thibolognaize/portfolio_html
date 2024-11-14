@@ -1,0 +1,16 @@
+.btn {
+    height: 75px;
+    width: 75px;
+    background: rgba(255, 255, 255, 0.589);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.icone {
+    width: 50px;
+}
