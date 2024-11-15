@@ -37,10 +37,6 @@
                 monde numérique.
             </p>
 
-
-            <h3 class="font-bold  text-neutral-950 underline mb-6">
-                Mes références
-            </h3>
             <?php include_once "./includes/table-veille.php" ;?>
             
         </div>
