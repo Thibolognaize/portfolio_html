@@ -1,7 +1,7 @@
-<?php require_once "./includes/header2.php"?>
+<?php include_once "./includes/header2.php"?>
 
 <!-- PAGE PROJET  -->
-<section id="projets" class="container mx-auto p-6">
+<section id="projets" class="container mx-auto p-6 flex-grow">
     <h2 class="text-3xl font-bold mb-4">Mes projets</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -61,4 +61,4 @@
     </div>
 </section>
 
-<?php require_once "./includes/footer.php"?>
+<?php include_once "./includes/footer.php"?>
