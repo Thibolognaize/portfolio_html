@@ -15,7 +15,7 @@
             <tr>
                 <td class="border border-slate-500">
                     Youtube
-                    <img src="./assets/img/logo/logoytb.png" class="h-10">
+                    <img src="../assets/img/logo/logoytb.png" class="h-10">
                 </td class="border border-slate-500">
                 <td class="border border-slate-500"><a href="https://www.youtube.com/@grafikart/"
                         class="hover:text-blue-500">Grafikart.fr</a></td>
@@ -28,7 +28,7 @@
             <tr>
                 <td class="border border-slate-500">
                     Youtube
-                    <img src="./assets/img/logo/logoytb.png" class="h-10">
+                    <img src="../assets/img/logo/logoytb.png" class="h-10">
                 </td class="border border-slate-500">
                 <td class="border border-slate-500"><a href="https://www.youtube.com/@NetworkChuck"
                         class="hover:text-blue-500">NetworkChuck</a></td>
@@ -40,7 +40,7 @@
             <tr>
                 <td class="border border-slate-500 text-center">
                     Web
-                    <img src="./assets/img/logo/icone-web.jpg" class="h-12">
+                    <img src="../assets/img/logo/icone-web.jpg" class="h-12">
                 </td class="border border-slate-500">
                 <td class="border border-slate-500"><a href="https://www.it-connect.fr/"
                         class="hover:text-blue-500">IT-Connect.fr</a></td>
@@ -53,7 +53,7 @@
             <tr>
                 <td class="border border-slate-500 text-center">
                     Web
-                    <img src="./assets/img/logo/icone-web.jpg" class="h-12">
+                    <img src="../assets/img/logo/icone-web.jpg" class="h-12">
                 </td class="border border-slate-500">
                 <td class="border border-slate-500"><a href="https://www.presse-citron.net/"
                         class="hover:text-blue-500">Presse-Citron</a></td>

@@ -1,4 +1,4 @@
-<?php include_once "./includes/header2.php"?>
+<?php include_once "../includes/header2.php"?>
 
 <!-- PAGE VEILLE INFORMATIQUE-->
     <section id="veille" class="container mx-auto p-6 flex-grow">
@@ -37,10 +37,10 @@
                 monde numérique.
             </p>
 
-            <?php include_once "./includes/table-veille.php" ;?>
+            <?php include_once "../includes/table-veille.php" ;?>
             
         </div>
     </section>
 
 
-<?php include_once "./includes/footer.php"?>
+<?php include_once "../includes/footer2.php"?>

@@ -1,4 +1,4 @@
-<?php include_once "./includes/header2.php"?>
+<?php include_once "../includes/header2.php"?>
 
 <!-- PAGE PROJET  -->
 <section id="projets" class="container mx-auto p-6 flex-grow">
@@ -16,7 +16,7 @@
             </p>
             <div class="object-scale-down h-1/2">
                 <a href="https://github.com/Thibolognaize/my_portfolio" target="_blank">
-                    <img src="./assets/img/photo/portfolio.png" alt=""
+                    <img src="../assets/img/photo/portfolio.png" alt=""
                         class="w-full cursor-pointer transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
                 </a>
             </div>
@@ -27,8 +27,8 @@
             <p class="text-neutral-950 mb-2">Site web utilisant un script Js pour récupérer les informations de
                 l'api Tyradex. <br>Ce site répertorie les pokemons de première génération.</p>
             <div class="object-scale-down h-1/2">
-                <a href="./assets/img/photo/image2.png" target="_blank">
-                    <img src="./assets/img/photo/image2.png" alt="Ouvrir l'image"
+                <a href="https://thibolognaize.github.io/Website_pokedex/" target="_blank">
+                    <img src="../assets/img/photo/image2.png" alt="Ouvrir l'image"
                         class="w-full cursor-pointer transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200 bottom-0">
                 </a>
             </div>
@@ -39,8 +39,8 @@
             <p class="text-neutral-950 mb-2">C'est une application Web que j'ai designé à l'aide de CSS.<br>Pour
                 l'affichage de donnée j'ai utilisé un script m'affichant les donnée de l'API weather map</p>
             <div class="object-scale-down h-1/2">
-                <a href="https://github.com/Thibolognaize/Weather-app" target="_blank">
-                    <img src="./assets/img/photo/image3.png" alt="Ouvrir l'image"
+                <a href="https://weather.thibault-feat.fr/" target="_blank">
+                    <img src="../assets/img/photo/image3.png" alt="Ouvrir l'image"
                         class="w-full cursor-pointer transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
                 </a>
             </div>
@@ -52,8 +52,8 @@
                 tout en masquant les autres en utilisant du javascripts. Ce projet à pour vocation d'être réutilisé
                 dans des projets futurs afin de rendre l'interface plus moderne.</p>
             <div class="object-scale-down h-1/2">
-                <a href="https://github.com/Thibolognaize/Projet_tabs" target="_blank" alt="Voir l'image">
-                    <img src="./assets/img/photo/image4.png" alt="Ouvrir l'image"
+                <a href="https://thibolognaize.github.io/Projet_tabs/" target="_blank" alt="Voir l'image">
+                    <img src="../assets/img/photo/image4.png" alt="Ouvrir l'image"
                         class="w-full cursor-pointer transition duration-300 transform hover:-translate-y-1 hover:bg-gray-200">
                 </a>
             </div>
@@ -61,4 +61,4 @@
     </div>
 </section>
 
-<?php include_once "./includes/footer.php"?>
+<?php include_once "../includes/footer2.php"?>  

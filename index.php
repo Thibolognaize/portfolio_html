@@ -1,5 +1,5 @@
 <?php
-include_once "./includes/header.php"
+include_once "./includes/header-index.php"
 ?>
 
 <!-- Présentation Section -->
@@ -34,5 +34,5 @@ include_once "./includes/header.php"
 include_once "./includes/competences.php";
 include_once "./includes/formation.php";
 include_once "./includes/contact.php";
-include_once "./includes/footer.php";
+include_once "./includes/footer-index.php";
 ?>

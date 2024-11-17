@@ -39,11 +39,11 @@
 					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					Compétences
 				</a>
-				<a href="./projet.php"
+				<a href="./pages/projet.php"
 					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					Projets
 				</a>
-				<a href="./veille.php"
+				<a href="./pages/veille.php"
 					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					Ma Veille
 				</a>
