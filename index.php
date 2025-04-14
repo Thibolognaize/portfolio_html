@@ -33,6 +33,7 @@ include_once "./includes/header-index.php"
 <?php 
 include_once "./includes/competences.php";
 include_once "./includes/formation.php";
+include_once "./includes/entreprise.php";
 include_once "./includes/contact.php";
 include_once "./includes/footer-index.php";
 ?>
