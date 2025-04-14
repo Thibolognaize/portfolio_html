@@ -1,4 +1,4 @@
-<!-- Contact Section -->
+<!-- Contact Section
 <section id="contact" class="container mx-auto p-6 pb-10">
 	<h2 class="text-3xl font-bold mb-4">Contactez moi | 🚧EN CONSTRUCTION🚧</h2>
 	<form action="/src/scripts/php/submit-form.php" method="post" class="bg-white shadow-md rounded-lg p-6">
@@ -17,4 +17,4 @@
 		</div>
 		<button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Envoyer</button>
 	</form>
-</section>
+</section> -->
