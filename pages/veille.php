@@ -39,6 +39,13 @@
 
             <?php include_once "../includes/table-veille.php" ;?>
             
+            <div class="mt-8 text-center">
+                <a href="./rss.php" class=" hover:text-grey-800 font-medium hover:underline transition-colors duration-200">
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-200">
+                        Voir les flux RSS
+                    <h2 class="">Flux RSS de developpez.com</h2>
+                </a>
+            </div>
         </div>
     </section>
 

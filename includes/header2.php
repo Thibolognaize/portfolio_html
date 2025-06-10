@@ -24,8 +24,8 @@
                 <img src="../assets/img/photo/pp.jpg" alt="Photo de Thibault Feat"
                     class="size-32 md:size-44 rounded-full md:mr-4 sm:mr-0 object-cover border-4">
                 <div class="flex flex-col mt-6 pt-4 md:pt-0">
-                    <h1 class="text-4xl md:text-6xl font-bold">Thibault Feat</h1>
-                    <h2 class="text-xl md:text-2xl md:ml-5">Développeur WEB</h2>
+                    <h1 class="text-4xl md:text-6xl font-bold text-stone-300">Thibault Feat</h1>
+                    <h2 class="text-xl md:text-2xl md:ml-5 text-stone-300">Développeur WEB</h2>
                 </div>
             </div>
 
@@ -51,9 +51,7 @@
 					class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">
 					E5-E6
 				</a>
-                <a href="../index.php#contact"
-                    class="text-neutral-950 bg-gray-200 border-2 rounded-full px-3 py-2 md:p-2 transition duration-300 transform hover:-translate-y-1 hover:bg-slate-300 font-bold text-sm md:text-base">Contact
-                </a>
+
             </nav>
         </div>
     </header>
