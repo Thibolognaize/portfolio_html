@@ -20,7 +20,7 @@ echo '<br>';
 echo '<ul>';
 foreach ($rss->channel->item as $item) {
     echo '<li>';
-    echo '<a href="' . $item->link . '">' . $item->title . '</a>';
+    echo '<a title="Rejoindre l article" href="' . $item->link . '">' . $item->title . '</a>';
     echo '<p>' . $item->description . '</p>';
     echo '</li>';
 }

@@ -8,12 +8,12 @@
                 Fort de son équipe de plus de 120 collaborateurs, répartis sur 7 sites géographiques, le cabinet d’audit et expertise comptable AUGEFI accompagne depuis plus de 40 ans ses clients dans tous les secteurs d’activité, y compris agricole. Nous proposons des savoir-faire qui englobent les métiers de la comptabilité, fiscalité, droit du travail, ressources humaines, gestion de patrimoine, marketing et informatique, ainsi que des prestations pour les clients anglophones désireux de s’installer en France.
             </p>
             <div class="container grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto p-4 items-center">
-                <a href="augefi.fr" target="_blank" title="Site web Augefi">
+                <a href="https://augefi.fr" target="_blank" title="Site web Augefi">
                     <img src="./assets/img/logo/Augefi_logo.png" alt="Photo de Augefi #1"
                         class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
                 </a>
                 <a href="https://www.google.fr/maps/place/Augefi+Bassin+De+Thau+%7C+Cabinet+d'audit+et+expertise+comptable/@43.6023428,3.6804919,11z/data=!4m10!1m2!2m1!1sAugefi!3m6!1s0x12b1359cffffffff:0xd9b6c2dc96ae35da!8m2!3d43.4220895!4d3.7230232!15sCgZBdWdlZmkiA4gBAZIBD2FjY291bnRpbmdfZmlybaoBSgoNL2cvMTFoMTV4d3BncBABKgoiBmF1Z2VmaSgEMh8QASIb1U7tsHt5wtwnGWX9WJDrd3CY5GvrbaYrVmllMgoQAiIGYXVnZWZp4AEA!16s%2Fg%2F1tgz2ncm?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
-                        title="Localisation Augefi Sète sur Google Maps">
+                        title="Localisation Augefi Sète sur Google Maps" target="_blank">
                     <img src="./assets/img/logo/Augefi_bat.jpg" alt="Photo de Augefi #2"
                         class="w-full h-16 rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
                 </a>
